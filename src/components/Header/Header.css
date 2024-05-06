@@ -34,3 +34,41 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+@media (max-width:1056) {
+    
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px) {
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents{
+        padding: 2vw 4vw;
+    }
+}
+
+
+@media (max-width:416px) {
+   .header-contents h2{
+    font-size: max(2.5vw,18px);
+   }
+}
+
+
+@media (max-width:376px) {
+    .header-contents h2{
+     font-size: max(2.5vw,19px);
+    }
+ }
+
+@media (max-width:356px) {
+    .header-contents h2{
+     font-size: max(2.5vw,15px);
+    }
+ }
