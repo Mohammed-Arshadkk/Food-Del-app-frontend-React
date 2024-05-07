@@ -35,7 +35,7 @@
     flex-direction: column;
     gap: 20px;
 } 
-.class-total-details{
+.cart-total-details{
     display: flex;
     justify-content: space-between;
     color: #555;
